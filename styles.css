@@ -1,3 +1,7 @@
+:root {
+    --box: #FFFFFF;
+}
+
 body {
     width: 90em;
     height: 217em;
@@ -16,8 +20,10 @@ Introduction {
 }
 
 Proficiency {
+    background-color: var(--box);
     width: 35em;
     height: 27em;
+    gap: 0.6em;
 }
 
 Skills {
@@ -46,4 +52,9 @@ Footer {
     background-color: #D76239;
     width: 83em;
     height: 10em;
+}
+
+Contact {
+    display: flex;
+    flex-direction: row;
 }
