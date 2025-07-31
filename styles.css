@@ -76,11 +76,31 @@ img {
     background-color: var(--box);
 }
 
+/* Experience Section */
+
 .Experience {
     width: 82em;
     height: 40em;
     border-radius: 24px;
     background-color: var(--box);
+}
+
+/* Experience Blocks Section */
+
+.Experience-Block-Three {
+    background-color: ghostwhite;
+    border: 2px solid ghostwhite;
+    border-radius: 16px;
+    display: flex;
+    padding-left: 20px;
+}
+
+.Experience-Block-Three-Left {
+    display: inline-block;
+}
+
+.Experience-Block-Three-Right {
+    display: inline-block;
 }
 
 footer {
