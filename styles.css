@@ -7,59 +7,90 @@ body {
     height: 217em;
     border: 1px;
     background-image: url("cd23f8b28866d711ecd55f7a1fe9e379146d9d6d.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
-    background-position: center;
 }
 
 img {
     width: 12em;
     height: 14em;
+    border-radius: 16px;
 }
 
-Introduction {
+.Introduction {
     display: flex;
     width: 82em;
     height: 19em;
     border-radius: 1.8em;
+    border: white;
+    background-color: var(--box);
+    border: 2px solid var(--box);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 24px;
 }
 
-Proficiency {
+.intro {
+    display: inline-block;
+    text-align: start;
+}
+
+.Proficiency {
     background-color: var(--box);
     width: 35em;
     height: 27em;
     gap: 0.6em;
+    border-radius: 24px;
 }
 
-Skills {
+.Skills {
+    background-color: var(--box);
     width: 44em;
     height: 27em;
+    border: 2px solid var(--box);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 24px;
 }
 
-Projects {
+.Projects {
+    background-color: var(--box);
+    color: black;
     width: 82em;
     height: 47em;
+    border-radius: 24px;
 }
 
-Education {
+.Education {
     width: 62em;
     height: 53em;
+    color: black;
+    background-color: var(--box);
+    border-radius: 24px;
 }
-Tools {
+
+.Tools {
     width: 19em;
     height: 53em;
+    border-radius: 24px;
+    background-color: var(--box);
 }
-Experience {
+
+.Experience {
     width: 82em;
     height: 40em;
+    border-radius: 24px;
+    background-color: var(--box);
 }
+
 Footer {
     background-color: #D76239;
     width: 83em;
     height: 10em;
+    border-radius: 24px;
 }
 
-Contact {
+.Contact {
     display: flex;
     flex-direction: row;
 }
