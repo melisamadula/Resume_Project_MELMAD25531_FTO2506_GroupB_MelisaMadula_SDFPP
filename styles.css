@@ -58,3 +58,15 @@ Contact {
     display: flex;
     flex-direction: row;
 }
+
+h4 {
+    background-color: black;
+    color: var(--box);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.tools-box {
+    background-color: lightgray;
+    border-radius: 8px;
+}
