@@ -36,12 +36,19 @@ img {
     text-align: start;
 }
 
+ /* Proficiency Section */
 .Proficiency {
     background-color: var(--box);
     width: 35em;
     height: 27em;
     gap: 0.6em;
     border-radius: 24px;
+}
+
+.Proficiency > ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
 }
 
 .Skills {
@@ -61,6 +68,7 @@ img {
     height: 47em;
     border-radius: 24px;
 }
+ /* Education Section*/
 
 .Education {
     width: 62em;
@@ -70,11 +78,78 @@ img {
     border-radius: 24px;
 }
 
+/* Education Blocks Section */
+/* h2 for Education */
+.ed {
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: start;
+}
+/* Education Block One */
+.Education-Block-One {
+    background-color: green;
+    border: 2px solid green;
+    border-radius: 16px;
+    display: flex;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.Education-Block-One-Left {
+    display: inline-block;
+}
+
+.Education-Block-One-Right {
+    display: inline-block;
+}
+
+/* Education Block Two*/
+.Education-Block-Two {
+    background-color: var(--blue-white);
+    border: 2px solid var(--blue-white);
+    border-radius: 16px;
+    display: flex;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.Education-Block-Two-Left {
+    display: inline-block;
+}
+
+.Education-Block-Two-Right {
+    display: inline-block;
+}
+
+/* Education Block Three*/
+.Education-Block-Three {
+    background-color: var(--blue-white);
+    border: 2px solid var(--blue-white);
+    border-radius: 16px;
+    display: flex;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.Education-Block-Three-Left {
+    display: inline-block;
+}
+
+.Education-Block-Three-Right {
+    display: inline-block;
+}
+
+/* Tools Section */
 .Tools {
     width: 19em;
     height: 53em;
     border-radius: 24px;
     background-color: var(--box);
+}
+
+.tools-box {
+    background-color: var(--blue-white);
+    border-radius: 8px;
 }
 
 /* Experience Section */
@@ -173,11 +248,6 @@ h4 {
     color: var(--box);
     border-radius: 8px;
     text-align: center;
-}
-
-.tools-box {
-    background-color: var(--blue-white);
-    border-radius: 8px;
 }
 
 .vertical-line {
