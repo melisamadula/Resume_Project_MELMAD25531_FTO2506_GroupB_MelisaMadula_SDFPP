@@ -1,5 +1,6 @@
 :root {
     --box: #FFFFFF;
+    --blue-white: #e0ebeb;
 }
 
 body {
@@ -86,13 +87,57 @@ img {
 }
 
 /* Experience Blocks Section */
+/* h2 for Experience */
+.ex {
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: start;
+}
 
-.Experience-Block-Three {
-    background-color: ghostwhite;
-    border: 2px solid ghostwhite;
+/* Experience Block One */
+.Experience-Block-One {
+    background-color: green;
+    border: 2px solid green;
     border-radius: 16px;
     display: flex;
     padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.Experience-Block-One-Left {
+    display: inline-block;
+}
+
+.Experience-Block-One-Right {
+    display: inline-block;
+}
+
+/* Experience Block Two */
+.Experience-Block-Two {
+    background-color: var(--blue-white);
+    border: 2px solid var(--blue-white);
+    border-radius: 16px;
+    display: flex;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.Experience-Block-Two-Left {
+    display: inline-block;
+}
+
+.Experience-Block-Two-Right {
+    display: inline-block;
+}
+
+/* Experience Block Three */
+.Experience-Block-Three {
+    background-color: var(--blue-white);
+    border: 2px solid var(--blue-white);
+    border-radius: 16px;
+    display: flex;
+    padding-left: 20px;
+    margin-bottom: 0px;
 }
 
 .Experience-Block-Three-Left {
@@ -131,7 +176,7 @@ h4 {
 }
 
 .tools-box {
-    background-color: lightgray;
+    background-color: var(--blue-white);
     border-radius: 8px;
 }
 
