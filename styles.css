@@ -6,7 +6,12 @@ body {
     width: 90em;
     height: 217em;
     border: 1px;
+    background-image: url("cd23f8b28866d711ecd55f7a1fe9e379146d9d6d.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+
 img {
     width: 12em;
     height: 14em;
