@@ -60,7 +60,7 @@ img {
     padding: 20px;
     margin: 30px;
     border-radius: 24px;
-    display: flex;
+    display: inline-block;
     flex-wrap: wrap;
 }
 
@@ -68,6 +68,14 @@ img {
       list-style-type: none;
       padding: 0;
       margin: 0;
+      border: 5px solid black;
+}
+ /* Skills Button */
+button > .Skills {
+    background-color: var(--blue-white);
+    color: black;
+    border: #D76239;
+    border-radius: 8px;
 }
 
 .Projects {
@@ -232,6 +240,17 @@ img {
     display: inline-block;
 }
 
+/* Experience Button*/
+/*
+button > * .Experience-Block-One-Right > .Experience-Block-One > ul.Experience {
+    background-color: #D76239;
+    color: white;
+    border: #D76239;
+    border-radius: 8px;
+}
+    */
+/* So far it's no longer working, ever since I made my Skills buttons. So I Inline Styled my Experience button on my HTML */
+
 footer {
     background-color: #D76239;
     width: 83em;
@@ -271,13 +290,6 @@ h4 {
     height: 20px;
     display: inline-flex;
     margin: 0 10px;
-}
-
-button {
-    background-color: #D76239;
-    color: white;
-    border: #D76239;
-    border-radius: 8px;
 }
 
 .Contact {
