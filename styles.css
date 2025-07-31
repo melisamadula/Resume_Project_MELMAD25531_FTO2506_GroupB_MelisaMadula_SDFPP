@@ -1,0 +1,49 @@
+body {
+    width: 90em;
+    height: 217em;
+    border: 1px;
+}
+img {
+    width: 12em;
+    height: 14em;
+}
+
+Introduction {
+    display: flex;
+    width: 82em;
+    height: 19em;
+    border-radius: 1.8em;
+}
+
+Proficiency {
+    width: 35em;
+    height: 27em;
+}
+
+Skills {
+    width: 44em;
+    height: 27em;
+}
+
+Projects {
+    width: 82em;
+    height: 47em;
+}
+
+Education {
+    width: 62em;
+    height: 53em;
+}
+Tools {
+    width: 19em;
+    height: 53em;
+}
+Experience {
+    width: 82em;
+    height: 40em;
+}
+Footer {
+    background-color: #D76239;
+    width: 83em;
+    height: 10em;
+}
