@@ -8,6 +8,7 @@
     --that-grey: #bbb;
     --green-pill: #2E6E5B;
     --pale-pill: #ECF4F1;
+    --dark: #000000;
 }
 
 body {
@@ -17,11 +18,12 @@ body {
     background-image: url("cd23f8b28866d711ecd55f7a1fe9e379146d9d6d.png");
     background-repeat: repeat;
     background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .Me {
     width: 12em;
-    height: 14em;
+    height: 16.5em;
     border-radius: 16px;
     margin-right: 2em;
 }
@@ -51,12 +53,13 @@ body {
     height: 27em;
     gap: 0.6em;
     border-radius: 24px;
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-top: 30px;
 }
 
 .Proficiency > ul {
       list-style-type: none;
-      padding: 0;
-      margin: 0;
 }
 
  /* Skills Section*/
@@ -68,42 +71,61 @@ body {
     padding: 20px;
     margin: 30px;
     border-radius: 24px;
-    display: inline-block;
-    justify-content:space-between;
 }
 
-.Skills > ul {
-      list-style-type: none;
-      padding: 20px;
-      margin: 20px;
-      border: 5px solid black;
-}
- /* Skills Button */
-button > .Skills {
+
+ /* Skills List */
+.list {
     background-color: var(--pale-pill);
-    color: black;
+    color: var(--dark);
     border: 2px solid var(--pale-pill);
     border-radius: 16px;
-    margin: 20px;
+    margin: 0px;
+    list-style-type: none;
+    padding: 8px;
+    width: 13em;
 }
 
+.pill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2em;
+}
 /* Projects Section */
 .Projects {
     background-color: var(--box);
-    color: black;
+    color: var(--dark);
     width: 82em;
     height: 47em;
     border-radius: 24px;
 }
+
+.projected > * {flex: 1;}
+
+.projected {
+    display: flex;
+    align-items: stretch;
+    align-items: flex-end;
+    margin-top: 70px;
+}
+
+.P {
+    text-align: center;
+    padding-top: 30px;
+}
+
 /* Portfolio */
 .Portfolio {
     background-color: var(--green-pill);
     border: 2px solid var(--green-pill);
+    color: var(--box);
     border-radius: 16px;
     padding-left: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    height: 80vh;
 }
 
 /* Podcast */
@@ -115,6 +137,7 @@ button > .Skills {
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    height: 80vh;
 }
 
 /* Agile */
@@ -126,6 +149,7 @@ button > .Skills {
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    height: 80vh;
 }
 
 /* Super */
@@ -137,6 +161,7 @@ button > .Skills {
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    height: 80vh;
 }
 
  /* Education Section*/
@@ -144,7 +169,7 @@ button > .Skills {
 .Education {
     width: 62em;
     height: 53em;
-    color: black;
+    color: var(--dark);
     background-color: var(--box);
     border-radius: 24px;
 }
@@ -160,6 +185,7 @@ button > .Skills {
 .Education-Block-One {
     background-color: var(--green-pill);
     border: 2px solid var(--green-pill);
+    color: var(--box);
     border-radius: 16px;
     display: flex;
     padding-left: 20px;
@@ -257,6 +283,7 @@ img {
 .Experience-Block-One {
     background-color: var(--green-pill);
     border: 2px solid var(--green-pill);
+    color: var(--box);
     border-radius: 16px;
     display: flex;
     padding-left: 20px;
@@ -345,7 +372,7 @@ footer {
 }
 
 h4 {
-    background-color: black;
+    background-color: var(--dark);
     color: var(--box);
     border-radius: 8px;
     text-align: center;
@@ -359,7 +386,7 @@ h4 {
 }
 
 .vertical-line-two {
-    border-left: 2px solid black;
+    border-left: 2px solid var(--dark);
     height: 20px;
     display: inline-flex;
     margin: 0 10px;
