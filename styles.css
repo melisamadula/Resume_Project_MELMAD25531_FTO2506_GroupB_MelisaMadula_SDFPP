@@ -1,6 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --box: #FFFFFF;
     --blue-white: #e0ebeb;
+    --that-grey: #bbb;
 }
 
 body {
@@ -12,20 +17,17 @@ body {
     background-size: cover;
 }
 
-img {
+.Me {
     width: 12em;
     height: 14em;
     border-radius: 16px;
+    margin-right: 2em;
 }
 
 .Introduction {
     display: flex;
     width: 82em;
     height: 19em;
-    border-radius: 1.8em;
-    border: white;
-    background-color: var(--box);
-    border: 2px solid var(--box);
     padding: 20px;
     margin: 30px;
     border-radius: 24px;
@@ -34,6 +36,10 @@ img {
 .intro {
     display: inline-block;
     text-align: start;
+    border-radius: 1.8em;
+    background-color: var(--box);
+    border: 2px solid var(--box);
+    padding-left: 1.5em;
 }
 
  /* Proficiency Section */
@@ -222,6 +228,12 @@ button > .Skills {
     display: flex;
 }
 
+img {
+    width: 5em;
+    height: 5em;
+    border-radius: 8px;
+}
+
 /* Experience Section */
 
 .Experience {
@@ -338,7 +350,7 @@ h4 {
 }
 
 .vertical-line {
-    border-left: 2px solid #bbb;
+    border-left: 2px solid var(--that-grey);
     height: 20px;
     display: inline-flex;
     margin: 0 10px;
@@ -352,7 +364,7 @@ h4 {
 }
 
 .Contact {
-    color: #bbb;
+    color: var(--that-grey);
 }
 
-/* PREP Space for my Projects styling */
+/* End of my styling and editing */
