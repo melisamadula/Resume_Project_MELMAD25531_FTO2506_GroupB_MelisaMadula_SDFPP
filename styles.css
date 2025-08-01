@@ -6,6 +6,8 @@
     --box: #FFFFFF;
     --blue-white: #e0ebeb;
     --that-grey: #bbb;
+    --green-pill: #2E6E5B;
+    --pale-pill: #ECF4F1;
 }
 
 body {
@@ -78,9 +80,9 @@ body {
 }
  /* Skills Button */
 button > .Skills {
-    background-color: var(--blue-white);
+    background-color: var(--pale-pill);
     color: black;
-    border: 2px solid var(--blue-white);
+    border: 2px solid var(--pale-pill);
     border-radius: 16px;
     margin: 20px;
 }
@@ -95,8 +97,8 @@ button > .Skills {
 }
 /* Portfolio */
 .Portfolio {
-    background-color: green;
-    border: 2px solid green;
+    background-color: var(--green-pill);
+    border: 2px solid var(--green-pill);
     border-radius: 16px;
     padding-left: 20px;
     margin-bottom: 20px;
@@ -106,8 +108,8 @@ button > .Skills {
 
 /* Podcast */
 .Podcast {
-    background-color: var(--blue-white);
-    border: 2px solid var(--blue-white);
+    background-color: var(--pale-pill);
+    border: 2px solid var(--pale-pill);
     border-radius: 16px;
     padding-left: 20px;
     margin-bottom: 20px;
@@ -117,8 +119,8 @@ button > .Skills {
 
 /* Agile */
 .Agile {
-    background-color: var(--blue-white);
-    border: 2px solid var(--blue-white);
+    background-color: var(--pale-pill);
+    border: 2px solid var(--pale-pill);
     border-radius: 16px;
     padding-left: 20px;
     margin-bottom: 20px;
@@ -128,8 +130,8 @@ button > .Skills {
 
 /* Super */
 .Super {
-    background-color: var(--blue-white);
-    border: 2px solid var(--blue-white);
+    background-color: var(--pale-pill);
+    border: 2px solid var(--pale-pill);
     border-radius: 16px;
     padding-left: 20px;
     margin-bottom: 20px;
@@ -156,8 +158,8 @@ button > .Skills {
 }
 /* Education Block One */
 .Education-Block-One {
-    background-color: green;
-    border: 2px solid green;
+    background-color: var(--green-pill);
+    border: 2px solid var(--green-pill);
     border-radius: 16px;
     display: flex;
     padding-left: 20px;
@@ -176,8 +178,8 @@ button > .Skills {
 
 /* Education Block Two*/
 .Education-Block-Two {
-    background-color: var(--blue-white);
-    border: 2px solid var(--blue-white);
+    background-color: var(--pale-pill);
+    border: 2px solid var(--pale-pill);
     border-radius: 16px;
     display: flex;
     padding-left: 20px;
@@ -196,8 +198,8 @@ button > .Skills {
 
 /* Education Block Three*/
 .Education-Block-Three {
-    background-color: var(--blue-white);
-    border: 2px solid var(--blue-white);
+    background-color: var(--pale-pill);
+    border: 2px solid var(--pale-pill);
     border-radius: 16px;
     display: flex;
     padding-left: 20px;
@@ -223,7 +225,7 @@ button > .Skills {
 }
 
 .tools-box {
-    background-color: var(--blue-white);
+    background-color: var(--pale-pill);
     border-radius: 8px;
     display: flex;
 }
@@ -253,8 +255,8 @@ img {
 
 /* Experience Block One */
 .Experience-Block-One {
-    background-color: green;
-    border: 2px solid green;
+    background-color: var(--green-pill);
+    border: 2px solid var(--green-pill);
     border-radius: 16px;
     display: flex;
     padding-left: 20px;
@@ -273,8 +275,8 @@ img {
 
 /* Experience Block Two */
 .Experience-Block-Two {
-    background-color: var(--blue-white);
-    border: 2px solid var(--blue-white);
+    background-color: var(--pale-pill);
+    border: 2px solid var(--pale-pill);
     border-radius: 16px;
     display: flex;
     padding-left: 20px;
@@ -293,8 +295,8 @@ img {
 
 /* Experience Block Three */
 .Experience-Block-Three {
-    background-color: var(--blue-white);
-    border: 2px solid var(--blue-white);
+    background-color: var(--pale-pill);
+    border: 2px solid var(--pale-pill);
     border-radius: 16px;
     display: flex;
     padding-left: 20px;
