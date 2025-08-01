@@ -219,6 +219,7 @@ button > .Skills {
 .tools-box {
     background-color: var(--blue-white);
     border-radius: 8px;
+    display: flex;
 }
 
 /* Experience Section */
