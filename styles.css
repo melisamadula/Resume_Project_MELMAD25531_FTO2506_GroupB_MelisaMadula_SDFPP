@@ -79,6 +79,7 @@ button > .Skills {
     margin: 20px;
 }
 
+/* Projects Section */
 .Projects {
     background-color: var(--box);
     color: black;
@@ -86,6 +87,50 @@ button > .Skills {
     height: 47em;
     border-radius: 24px;
 }
+/* Portfolio */
+.Portfolio {
+    background-color: green;
+    border: 2px solid green;
+    border-radius: 16px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Podcast */
+.Podcast {
+    background-color: var(--blue-white);
+    border: 2px solid var(--blue-white);
+    border-radius: 16px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Agile */
+.Agile {
+    background-color: var(--blue-white);
+    border: 2px solid var(--blue-white);
+    border-radius: 16px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Super */
+.Super {
+    background-color: var(--blue-white);
+    border: 2px solid var(--blue-white);
+    border-radius: 16px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
  /* Education Section*/
 
 .Education {
