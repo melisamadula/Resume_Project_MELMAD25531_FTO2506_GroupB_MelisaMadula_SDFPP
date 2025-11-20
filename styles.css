@@ -12,8 +12,8 @@
 }
 
 body {
-    width: 90em;
-    height: 217em;
+    /*width: 90rem;
+    height: 217rem;*/
     border: 1px;
     background-image: url("cd23f8b28866d711ecd55f7a1fe9e379146d9d6d.png");
     background-repeat: repeat;
@@ -21,12 +21,14 @@ body {
     font-family:Arial, Helvetica, sans-serif;
 }
 
+/* Header Section */
+
 header {
     display: flex;
     width: 82.611875em;
     height: 18.75625em;
-    padding: 20px;
-    margin: 30px;
+    /*padding: 20px;
+    margin: 30px;*/
     border-radius: 24px;
     justify-self: center;
 }
@@ -38,12 +40,13 @@ header {
     padding-left: 1.5em;*/
     background-color: var(--box);
     border: 2px solid var(--box);
-    
     width: 62.168125em;
     height: 18.75625em;
-    border-radius: 1.5em;
+    border-radius: 1.815em;
     object-fit: cover;
-    
+    padding: 4.3125em 3.6875em;
+    align-content: center;
+    /*gap: 0.625em; (Figma had a gap/ spacing unit, tried it but it wasn't working with my layout) */
 }
 
 .Me {
@@ -52,17 +55,16 @@ header {
     border-radius: 1.5em;
     object-fit: cover;
     /*margin-right: 2em;*/
-    margin-right: 1.6875em;
+    margin-right: 1.6875em; /* CALCULATIONS was how I reached this number */
 }
 
-/* CALCULATIONS: 
-   (Introduction) header width - .intro width - .Me width = space between pic and bio (1.6875) */
+/* CALCULATIONS: (Introduction) header width - .intro width - .Me width = space between pic and bio (1.6875) */
 
-.intro > p {
+/*.intro > p {
     display: flex;
     flex-direction: row;
     line-height: 1.5em;
-}
+}*/
 
 .my-name {
     text-align: left;
@@ -74,13 +76,15 @@ header {
  /* Proficiency Section */
 .Proficiency {
     background-color: var(--box);
-    width: 35em;
-    height: 27em;
+    width: 35.24375em;
+    height: 26.773125em;
     gap: 0.6em;
-    border-radius: 24px;
+    /*border-radius: 24px;*/
+    border-radius: 1.815em;
     margin-left: 20px;
-    padding-left: 30px;
-    padding-top: 30px;
+    /*padding-left: 30px;
+    padding-top: 30px;*/
+    padding: 1.75em 2.5625em;
 }
 
 .Proficiency > ul {
@@ -90,12 +94,13 @@ header {
  /* Skills Section*/
 .Skills {
     background-color: var(--box);
-    width: 44em;
-    height: 27em;
+    width: 44.125em;
+    height: 26.8125em;
     border: 2px solid var(--box);
-    padding: 20px;
+    /*padding: 20px;*/
+    padding: 1.75em;
     margin: 30px;
-    border-radius: 24px;
+    border-radius: 1.815em;
 }
 
 
@@ -117,13 +122,14 @@ header {
     justify-content: space-evenly;
     gap: 2em;
 }
+
 /* Projects Section */
 .Projects {
     background-color: var(--box);
     color: var(--dark);
-    width: 82em;
-    height: 47em;
-    border-radius: 24px;
+    width: 82.38em;
+    height: 47.193125em;
+    border-radius: 1.815em;
 }
 
 .projected > * {flex: 1;}
@@ -192,11 +198,11 @@ header {
  /* Education Section*/
 
 .Education {
-    width: 62em;
-    height: 53em;
+    width: 62.168125em;
+    height: 54.62875em;
     color: var(--dark);
     background-color: var(--box);
-    border-radius: 24px;
+    border-radius: 1.815em;
 }
 
 /* Education Blocks Section */
@@ -269,9 +275,9 @@ header {
 
 /* Tools Section */
 .Tools {
-    width: 19em;
-    height: 53em;
-    border-radius: 24px;
+    width: 18.75625em;
+    height: 54.62875em;
+    border-radius: 1.815em;
     background-color: var(--box);
 }
 
@@ -298,9 +304,9 @@ header {
 /* Experience Section */
 
 .Experience {
-    width: 82em;
+    width: 82.25em;
     height: 40em;
-    border-radius: 24px;
+    border-radius: 1.815em;
     background-color: var(--box);
 }
 
@@ -386,13 +392,14 @@ button > * .Experience-Block-One-Right > .Experience-Block-One > ul.Experience {
 
 footer {
     background-color: #D76239;
-    width: 83em;
-    height: 10em;
-    border-radius: 24px;
+    width: 82.625em;
+    height: 9.875em;
+    border-radius: 1.815em;
     text-align: start;
     display: inline-block;
-    padding-left: 30px;
-    padding-bottom: 5px;
+    /*padding-left: 30px;
+    padding-bottom: 5px;*/
+    padding: 1.815em;
 }
 
 .message {
