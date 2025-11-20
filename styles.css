@@ -22,9 +22,9 @@ body {
 }
 
 .Me {
-    width: 12em;
-    height: 16.5em;
-    border-radius: 16px;
+    width: 144px;
+    height: 144px;
+    border-radius: 24px;
     margin-right: 2em;
 }
 
@@ -264,7 +264,7 @@ body {
     text-align: center;
 }
 
-img {
+.tool-img {
     width: 5em;
     height: 5em;
     border-radius: 8px;
