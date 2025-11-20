@@ -247,6 +247,7 @@ header {
     color: var(--dark);
     background-color: var(--box);
     border-radius: 1.815em;
+    margin-right: 1.6875em;
 }
 
 /* Education Blocks Section */
