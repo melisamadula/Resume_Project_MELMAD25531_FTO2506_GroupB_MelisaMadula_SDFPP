@@ -87,9 +87,47 @@ header {
     padding: 1.75em 2.5625em;
 }
 
-.Proficiency > ul {
+/*.Proficiency > ul {
+      list-style-type: none;
+}*/                               /* DELETE */
+
+/*.balance {
+    display: flex;
+    flex-direction: column;
+}*/
+
+.balance > ul {
       list-style-type: none;
 }
+
+.listed-up {
+    display: flex;
+    padding-top: 10px;
+}
+
+.line {
+    border: 10px solid #2E6E5B;
+    background: #2E6E5B;
+    border-radius: 0.5em;
+    margin: 2px;
+}
+
+.line-one {
+    width: 100%;
+}
+
+.line-two {
+    width: 75%;
+}
+
+.line-three {
+    width: 35%;
+}
+
+.line-four {
+    width: 55%;
+}
+
 
  /* Skills Section*/
 .Skills {
