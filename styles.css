@@ -126,6 +126,9 @@ header {
     width: 55%;
 }
 
+.Proficiency > h3 {
+    color: #000;
+}
 
  /* Skills Section*/
 .Skills {
@@ -143,7 +146,7 @@ header {
  /* Skills List */
 .list {
     background-color: var(--pale-pill);
-    color: var(--dark);
+    color: #000;
     border: 2px solid var(--pale-pill);
     border-radius: 16px;
     margin: 0px;
