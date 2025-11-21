@@ -121,7 +121,7 @@ You're not just building a resume site — you're building confidence, skills, a
 **You’ve got this. Let’s go! 🚀**
 
 ## Loom Project Link:
-Loom link: https://www.loom.com/share/035ee89ea11440d3987a136d7fb32ee9
+Loom link: https://www.loom.com/share/f31b37d16d3444b6b5b462288c6d1683
 
 ## My Own Overview
-- Project needs better layout and responsiveness.
+- Try out Tailwind next time.
