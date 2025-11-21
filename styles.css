@@ -183,7 +183,7 @@ header {
     align-items: stretch;
     align-items: flex-end;
     margin-top: 70px;
-}
+} /* Might have to be commented out since I had to add section three and four */ /* CAN'T: comment out, NEEDED section */
 
 .P {
     text-align: center;
@@ -215,6 +215,14 @@ header {
     height: 80vh;
 }
 
+/* section-three for Portfolio and Podcasts */  /* Copied from projected section */
+.section-three {
+    display: flex;
+    align-items: stretch;
+    align-items: flex-end;
+    /*margin-top: 70px;*/ /* might not work here, as this was .projected measurements */
+}
+
 /* Agile */
 .Agile {
     background-color: var(--pale-pill);
@@ -239,6 +247,14 @@ header {
     height: 80vh;
 }
 
+/* section-four for Agile and Super */
+.section-four {
+    display: flex;
+    align-items: stretch;
+    align-items: flex-end;
+    /*margin-top: 70px;*/
+}
+
  /* Education Section*/
 
 .Education {
@@ -248,8 +264,8 @@ header {
     background-color: var(--box);
     border-radius: 1.815em;
     margin-right: 1.6875em;          /* Matched margin-right of .Me (my profile picture) */
-    display: flex;                   /* Same last two additions as in Experience */
-    flex-direction: column;
+    /*display: flex;*/                   /* Same last two additions as in Experience */
+    /*flex-direction: column;*/          /* Commenting out for now. It was added in attempt to make line-height work here */
 }
 
 /* Education Blocks Section */
@@ -278,7 +294,6 @@ header {
 
 .Education-Block-One-Right {
     display: inline-block;
-    line-height: 2rem;
 }
 
 /* Education Block Two*/
@@ -299,7 +314,6 @@ header {
 
 .Education-Block-Two-Right {
     display: inline-block;
-    line-height: 2em;
 }
 
 /* Education Block Three*/
@@ -320,7 +334,6 @@ header {
 
 .Education-Block-Three-Right {
     display: inline-block;
-    line-height: 2em;
 }
 
 /* Tools Section */
@@ -554,7 +567,16 @@ h4 {
         /*justify-self: center;*/
         align-self: center;
     }
-    /*.projected {
-        width: 80%;
-    }*/
+    /*.Portfolio,
+    .Podcast,
+    .Agile,
+    .Super {
+        width: 80%;               /* changed from .projected at 80% */
+    /*}*/
+    .section-three,
+    .section-four {
+        display: flex;
+        flex-direction: column;
+        height: 40vh;
+    }
 }
