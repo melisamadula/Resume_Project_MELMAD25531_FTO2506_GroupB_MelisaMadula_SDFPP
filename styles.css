@@ -12,8 +12,6 @@
 }
 
 body {
-    /*width: 90rem;
-    height: 217rem;*/
     border: 1px;
     background-image: url("cd23f8b28866d711ecd55f7a1fe9e379146d9d6d.png");
     background-repeat: repeat;
@@ -27,18 +25,12 @@ header {
     display: flex;
     width: 82.611875em;
     height: 18.75625em;
-    /*padding: 20px;
-    margin: 30px;*/
     border-radius: 24px;
     justify-self: center;
     margin-top: 4em;
 }
 
 .intro {
-    /*display: inline-block;
-    text-align: start;
-    border-radius: 1.8em;
-    padding-left: 1.5em;*/
     background-color: var(--box);
     border: 2px solid var(--box);
     width: 62.168125em;
@@ -47,7 +39,6 @@ header {
     object-fit: cover;
     padding: 4.3125em 3.6875em;
     align-content: center;
-    /*gap: 0.625em; (Figma had a gap/ spacing unit, tried it but it wasn't working with my layout) */
 }
 
 .Me {
@@ -55,17 +46,11 @@ header {
     height: 18.75625em;
     border-radius: 1.5em;
     object-fit: cover;
-    /*margin-right: 2em;*/
     margin-right: 1.6875em; /* CALCULATIONS was how I reached this number */
 }
 
 /* CALCULATIONS: (Introduction) header width - .intro width - .Me width = space between pic and bio (1.6875) */
 
-/*.intro > p {
-    display: flex;
-    flex-direction: row;
-    line-height: 1.5em;
-}*/
 
 .my-name {
     text-align: left;
@@ -80,11 +65,8 @@ header {
     width: 35.24375em;
     height: 26.773125em;
     gap: 0.6em;
-    /*border-radius: 24px;*/
     border-radius: 1.815em;
     margin-left: 20px;
-    /*padding-left: 30px;
-    padding-top: 30px;*/
     padding: 1.75em 2.5625em;
     margin: 30px;                     /* Aligned margin to same, as in Skills */
 }
@@ -186,7 +168,7 @@ header {
     align-items: stretch;
     align-items: flex-end;
     margin-top: 70px;
-} /* Might have to be commented out since I had to add section three and four */ /* CAN'T: comment out, NEEDED section */
+}
 
 .P {
     text-align: center;
@@ -223,7 +205,6 @@ header {
     display: flex;
     align-items: stretch;
     align-items: flex-end;
-    /*margin-top: 70px;*/ /* might not work here, as this was .projected measurements */
 }
 
 /* Agile */
@@ -255,7 +236,6 @@ header {
     display: flex;
     align-items: stretch;
     align-items: flex-end;
-    /*margin-top: 70px;*/
 }
 
  /* Education Section*/
@@ -263,12 +243,10 @@ header {
 .Education {
     width: 62.168125em;
     height: 54.62875em;
-    color: var(--dark);
+    color: #000;
     background-color: var(--box);
     border-radius: 1.815em;
     margin-right: 1.6875em;          /* Matched margin-right of .Me (my profile picture) */
-    /*display: flex;*/                   /* Same last two additions as in Experience */
-    /*flex-direction: column;*/          /* Commenting out for now. It was added in attempt to make line-height work here */
 }
 
 /* Education Blocks Section */
@@ -349,7 +327,7 @@ header {
 
 .tools-box {
     background-color: var(--pale-pill);
-    border-radius: 16px;                   /* previously 8px*/
+    border-radius: 16px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -375,7 +353,7 @@ h4 {
     border-radius: 8px;
     text-align: center;
     margin: auto;
-    margin-top: 1.5em;        /* previously 0.5em */
+    margin-top: 1.5em;
     padding: 0.35em;
     width: 7em;
 }
@@ -397,7 +375,7 @@ h4 {
     justify-self: center;
     margin-top: 3em;
     display: flex;
-    flex-direction: column; /* new addition to be deleted from both html and css */ /* switch right and left blocks on */
+    flex-direction: column;
 }
 
 /* Experience Blocks Section */
@@ -491,10 +469,8 @@ footer {
     height: 9.875em;
     border-radius: 1.815em;
     text-align: start;
-    display: flex;   /* previously display: inline-block */
-    flex-direction: column;  /* flex addition */
-    /*padding-left: 30px;
-    padding-bottom: 5px;*/
+    display: flex;
+    flex-direction: column;
     padding: 1.815em;
     justify-self: center;
     margin-top: 3em;
@@ -517,21 +493,6 @@ footer {
 }
 
 
-/*.vertical-line {
-    border-left: 2px solid var(--that-grey);
-    height: 20px;
-    display: inline-flex;
-    margin: 0 10px;
-}
-
-.vertical-line-two {
-    border-left: 2px solid var(--dark);
-    height: 20px;
-    display: inline-flex;
-    margin: 0 10px;
-}*/
-
-
 /* End of my styling and editing */
 
 
@@ -544,24 +505,15 @@ footer {
     header {
         display: flex;
         width: 80%;
-        /*flex-direction: column;*/
-        /*align-items: center;*/
     }
     .section-one {
         display: flex;
         flex-direction: column;
-        /*width: 80%;*/
     }
     .section-two {
         display: flex;
         flex-direction: column;
-        /*width: 80%;*/
     }
-    /*.Tools {
-        display: flex;
-        flex-direction: column;
-        /*width: 80%;*/
-    /*}*/
     .Proficiency,
     .Skills,
     .Projects,
@@ -573,15 +525,8 @@ footer {
     }
     .Proficiency,
     .Skills {
-        /*justify-self: center;*/
         align-self: center;
     }
-    /*.Portfolio,
-    .Podcast,
-    .Agile,
-    .Super {
-        width: 80%;               /* changed from .projected at 80% */
-    /*}*/
     .section-three,
     .section-four {
         display: flex;
@@ -590,19 +535,14 @@ footer {
     }
     .Tools {
         display: flex;
-        flex-direction: column;     /* higher - Tools was flex-direction: column */
+        flex-direction: column;
         margin-top: 2em;
     }
     .tools-box {
-        /*display: flex;
-        flex-direction: column;*/
         align-self: center;
-        /*width: 85%;
-        height: 30%;*/
     }
     .tool-img {
         display: flex;
-        /*flex-direction: column;*/ /* delete */
     }
     .Education,
     .Tools {
