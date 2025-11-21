@@ -512,24 +512,33 @@ h4 {
     .section-one {
         display: flex;
         flex-direction: column;
-        width: 80%;
+        /*width: 80%;*/
     }
     .section-two {
         display: flex;
         flex-direction: column;
-        width: 80%;
+        /*width: 80%;*/
     }
     .Tools {
         display: flex;
         flex-direction: column;
-        width: 80%;
+        /*width: 80%;*/
     }
     .Proficiency,
     .Skills,
     .Projects,
     .Education,
+    .Tools,
     .Experience,
     footer {
+        width: 80%;
+    }
+    .Proficiency,
+    .Skills {
+        /*justify-self: center;*/
+        align-self: center;
+    }
+    .projected {
         width: 80%;
     }
 }
