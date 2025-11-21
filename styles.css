@@ -346,11 +346,13 @@ header {
 
 .tools-box {
     background-color: var(--pale-pill);
-    border-radius: 8px;
+    border-radius: 16px;                   /* previously 8px*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 2em;
+    width: 13em;
+    justify-self: center;
 }
 
 .T {
@@ -362,6 +364,17 @@ header {
     width: 5em;
     height: 5em;
     border-radius: 8px;
+}
+
+h4 {
+    background-color: var(--dark);
+    color: var(--box);
+    border-radius: 8px;
+    text-align: center;
+    margin: auto;
+    margin-top: 1.5em;        /* previously 0.5em */
+    padding: 0.35em;
+    width: 7em;
 }
 
 /* section-two for Education and Tools */
@@ -496,13 +509,6 @@ footer {
     color: var(--that-grey);
 }
 
-h4 {
-    background-color: var(--dark);
-    color: var(--box);
-    border-radius: 8px;
-    text-align: center;
-}
-
 .Contact > p {
     margin-left: 2em;
 }
@@ -548,11 +554,11 @@ h4 {
         flex-direction: column;
         /*width: 80%;*/
     }
-    .Tools {
+    /*.Tools {
         display: flex;
         flex-direction: column;
         /*width: 80%;*/
-    }
+    /*}*/
     .Proficiency,
     .Skills,
     .Projects,
@@ -578,5 +584,21 @@ h4 {
         display: flex;
         flex-direction: column;
         height: 40vh;
+    }
+    .Tools {
+        display: flex;
+        flex-direction: column;     /* higher - Tools was flex-direction: column */
+        margin-top: 2em;
+    }
+    .tools-box {
+        /*display: flex;
+        flex-direction: column;*/
+        align-self: center;
+        /*width: 85%;
+        height: 30%;*/
+    }
+    .tool-img {
+        display: flex;
+        /*flex-direction: column;*/ /* delete */
     }
 }
