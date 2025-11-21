@@ -248,6 +248,8 @@ header {
     background-color: var(--box);
     border-radius: 1.815em;
     margin-right: 1.6875em;          /* Matched margin-right of .Me (my profile picture) */
+    display: flex;                   /* Same last two additions as in Experience */
+    flex-direction: column;
 }
 
 /* Education Blocks Section */
@@ -276,6 +278,7 @@ header {
 
 .Education-Block-One-Right {
     display: inline-block;
+    line-height: 2rem;
 }
 
 /* Education Block Two*/
@@ -296,6 +299,7 @@ header {
 
 .Education-Block-Two-Right {
     display: inline-block;
+    line-height: 2em;
 }
 
 /* Education Block Three*/
@@ -316,6 +320,7 @@ header {
 
 .Education-Block-Three-Right {
     display: inline-block;
+    line-height: 2em;
 }
 
 /* Tools Section */
@@ -362,6 +367,8 @@ header {
     background-color: var(--box);
     justify-self: center;
     margin-top: 3em;
+    display: flex;
+    flex-direction: column; /* new addition to be deleted from both html and css */ /* switch right and left blocks on */
 }
 
 /* Experience Blocks Section */
@@ -391,6 +398,7 @@ header {
 
 .Experience-Block-One-Right {
     display: inline-block;
+    line-height: 2em;
 }
 
 /* Experience Block Two */
@@ -411,6 +419,7 @@ header {
 
 .Experience-Block-Two-Right {
     display: inline-block;
+    line-height: 2em;
 }
 
 /* Experience Block Three */
@@ -431,7 +440,10 @@ header {
 
 .Experience-Block-Three-Right {
     display: inline-block;
+    line-height: 2em;
 }
+
+
 
 /* Experience Button*/
 /*
@@ -458,6 +470,7 @@ footer {
     justify-self: center;
     margin-top: 3em;
     margin-bottom: 3em;
+    justify-items: space-between;
 }
 
 .message {
@@ -467,6 +480,7 @@ footer {
 .Contact {
     display: flex;
     flex-direction: row;
+    color: var(--that-grey);
 }
 
 h4 {
@@ -476,7 +490,12 @@ h4 {
     text-align: center;
 }
 
-.vertical-line {
+.Contact > p {
+    margin-left: 2em;
+}
+
+
+/*.vertical-line {
     border-left: 2px solid var(--that-grey);
     height: 20px;
     display: inline-flex;
@@ -488,11 +507,8 @@ h4 {
     height: 20px;
     display: inline-flex;
     margin: 0 10px;
-}
+}*/
 
-.Contact {
-    color: var(--that-grey);
-}
 
 /* End of my styling and editing */
 
@@ -538,7 +554,7 @@ h4 {
         /*justify-self: center;*/
         align-self: center;
     }
-    .projected {
+    /*.projected {
         width: 80%;
-    }
+    }*/
 }
