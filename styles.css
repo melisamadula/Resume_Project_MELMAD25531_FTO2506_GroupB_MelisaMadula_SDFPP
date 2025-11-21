@@ -601,4 +601,8 @@ footer {
         display: flex;
         /*flex-direction: column;*/ /* delete */
     }
+    .Education,
+    .Tools {
+        width: 100%;
+    }
 }
